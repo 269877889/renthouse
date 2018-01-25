@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="login" namespace="/login" extends="renthouse">
+        <action name="index">
+            <result name="success">/WEB-INF/index.jsp</result>
+        </action>
+        <action name="login" class="loginaction" method="login">
+        	 <result name="success">/WEB-INF/pages/index.jsp</result>
+        	 <result name="error" >/WEB-INF/pages/index.jsp</result>
+        </action>
+        
+    </package>
+</struts>

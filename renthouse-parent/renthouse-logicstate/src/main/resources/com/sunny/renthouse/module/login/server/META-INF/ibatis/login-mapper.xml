@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+	"-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunny.renthouse.module.login.server">
+
+<select id="queryhasUser" parameterType="com.sunny.renthouse.module.login.shared.domain.UserLoginEntity" resultType="int">
+	select count(1) from t_rh_managementlogin l
+	where l.loginName = #{userName} and l.password = #{password}
+</select>
+
+</mapper>	
