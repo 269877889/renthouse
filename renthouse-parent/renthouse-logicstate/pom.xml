@@ -122,79 +122,7 @@
 			<artifactId>commons-io</artifactId>
 			<version>${commonsio.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax.ws.rs/jsr311-api -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>javax.ws.rs</groupId> -->
-<!-- 			<artifactId>jsr311-api</artifactId> -->
-<!-- 			<version>1.1.1</version> -->
-<!-- 		</dependency> -->
-		<!-- CXF lib -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-api</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-rt-frontend-jaxrs</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-common-utilities</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-tools-common</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-rt-frontend-jaxws</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-testutils</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 			<scope>test</scope> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-rt-transports-http</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-rt-transports-http-jetty</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 			<scope>test</scope> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.cxf</groupId> -->
-<!-- 			<artifactId>cxf-rt-core</artifactId> -->
-<!-- 			<version>${cxf-version}</version> -->
-<!-- 		</dependency> -->
 
-		
-
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.codehaus.jackson</groupId> -->
-<!-- 			<artifactId>jackson-jaxrs</artifactId> -->
-<!-- 			<version>${jackson-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.codehaus.jackson</groupId> -->
-<!-- 			<artifactId>jackson-core-asl</artifactId> -->
-<!-- 			<version>${jackson-version}</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.codehaus.jackson</groupId> -->
-<!-- 			<artifactId>jackson-mapper-asl</artifactId> -->
-<!-- 			<version>${jackson-version}</version> -->
-<!-- 		</dependency> -->
-<!-- CXF lib end -->
 	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 	<dependency>
 	    <groupId>org.apache.httpcomponents</groupId>

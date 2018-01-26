@@ -11,6 +11,9 @@
         <dependent-module archiveName="renthouse-base-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/renthouse-base/renthouse-base">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="renthouse-mobile-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/renthouse-mobile/renthouse-mobile">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/renthouse-parent-web/target/classes"/>
         <property name="context-root" value="renthouse"/>
     </wb-module>

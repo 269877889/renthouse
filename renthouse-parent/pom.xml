@@ -79,5 +79,6 @@
     <module>renthouse-parent-web</module>
     <module>renthouse-logicstate</module>
     <module>renthouse-base</module>
+    <module>renthouse-mobile</module>
   </modules>
 </project>

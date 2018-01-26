@@ -33,6 +33,13 @@
      	<artifactId>renthouse-logicstate</artifactId>
         <version>0.0.1-SNAPSHOT</version>
    	</dependency>
+   	<dependency>
+    	<groupId>com.sunny.renthouse</groupId>
+     	<artifactId>renthouse-mobile</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+   	</dependency>
+   	
+   	
   </dependencies>
   
   <build>
